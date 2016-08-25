@@ -20,7 +20,6 @@ function testString {
 testString "Finn should say ADVENTURE TIME" ./finn.sh 'ADVENTURE TIME'
 testString "Jake should say Mathemagical" ./jake.sh 'Mathemagical'
 testString "HELLO MISTER. I DO NOT GET THESE SHELL COMMANDS" ./mark.sh 'SOMETHING'
-testString "Ooooh, I may be in way over my head" ./automated.sh 'head'
 testString "HELLO" ./hello.sh 'HELLO'
 echo "SUCCESS!" 
 
