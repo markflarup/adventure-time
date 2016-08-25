@@ -22,7 +22,7 @@ testString "WHY THE FUCK WILL THIS NOT WORK?" ./auto.sh 'head'
 
 testString "Jake should say Mathemagical" ./jake.sh 'Mathemagical'
 testString "DUPPE DUPPE DUKKE DAK" ./dak.sh 'DAK'
-
+testString "Hej med dig, Mads" ./mads.sh 'Mads'
 #testString "I would like to pass yet another task" ./another.sh 'Task'
 
 testString "HELLO MISTER. I DO NOT GET THESE SHELL COMMANDS" ./mark.sh 'SOMETHING'
