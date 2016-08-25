@@ -18,8 +18,16 @@ function testString {
 }
 
 testString "Finn should say ADVENTURE TIME" ./finn.sh 'ADVENTURE TIME'
+testString "WHY THE FUCK WILL THIS NOT WORK?" ./auto.sh 'head'
+
 testString "Jake should say Mathemagical" ./jake.sh 'Mathemagical'
+testString "DUPPE DUPPE DUKKE DAK" ./dak.sh 'DAK'
+
+#testString "I would like to pass yet another task" ./another.sh 'Task'
+
 testString "HELLO MISTER. I DO NOT GET THESE SHELL COMMANDS" ./mark.sh 'SOMETHING'
-testString "HELLO" ./hello.sh 'HELLO'
-echo "SUCCESS!" 
+
+#testString "HELLO" ./hello.sh 'HELLO'
+
+echo "SUCCESS! COME ON!" 
 
