@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "HELLO"
+echo "HEJ"
 echo "I love Princess Bubblegum"
