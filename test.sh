@@ -19,7 +19,6 @@ function testString {
 
 testString "Finn should say ADVENTURE TIME" ./finn.sh 'ADVENTURE TIME'
 testString "Jake should say Mathemagical" ./jake.sh 'Mathemagical'
-
-echo "$testsPassed unit tests passed"
+testString "HELLO MISTER. I DO NOT GET THESE SHELL COMMANDS" ./mark.sh 'SOMETHING'
 echo "SUCCESS!" 
 
